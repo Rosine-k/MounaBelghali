@@ -1,0 +1,33 @@
+.photos {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+    &__bloc {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* Trois colonnes égales */
+        gap: 20px; /* Espace entre les images */
+    }
+    &__book {
+        width: 345px;
+        height: 517px;
+    }
+    // &__book:hover {
+    //     transform: scale(1.2);
+    // }
+    &__h1 {
+        font-size: 38px;
+        font-weight: 300;
+        margin-bottom: 50px;
+    }
+}
+
+.thumbnail {margin-bottom:6px;}
+
+.carousel-control.left,.carousel-control.right{
+  background-image:none;
+  margin-top:10%;
+  width:5%;
+}

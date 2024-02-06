@@ -1,0 +1,69 @@
+// .footer {
+//     display: flex;
+    
+//     &__bloc {
+//         display: block;
+//         text-align: center;
+//         align-items: center;
+//         justify-content: center;
+//         color: black;
+//     }
+//     &__blocbis {
+//         display: flex;
+//         align-items: center;
+//         justify-content: space-between;
+//         text-align: center;
+//     }
+// }
+
+.footer {
+    text-align: center; /* Centrer le contenu horizontalement */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: grayscale(70%);
+    // color: black;
+    padding: 20px;
+}
+
+.footer__bloc {
+    display: flex;
+    flex-direction: column; /* Afficher les éléments en colonne */
+    align-items: center; /* Centrer les éléments horizontalement */
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.footer__blocbis {
+    display: flex;
+    gap: 60px;
+    justify-content: center; /* Espace équitable entre les éléments */
+    align-items: center;
+    width: 100%; /* Utiliser toute la largeur disponible */
+    max-width: 600px; /* Limiter la largeur pour une meilleure lisibilité */
+    margin-top: 20px; /* Ajouter de l'espace en haut */
+    margin-left: 50px;
+}
+
+.footer__text,
+.footer__contact {
+    flex: 1; /* Prendre autant d'espace l'un que l'autre */
+    text-align: left; /* Aligner le texte à gauche */
+}
+
+.footer__contact {
+    // margin-right: 50px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.footer__titre {
+    margin-bottom: 10px; /* Ajouter de l'espace entre le titre et le texte */
+    font-size: 16px;
+}
+
+.footer__copyright {
+    margin-top: 30px; /* Ajouter de l'espace en haut */
+    font-size: 11px;
+    // margin-right: 55px;
+}
