@@ -17,19 +17,17 @@
 // }
 
 .footer {
-    text-align: center; /* Centrer le contenu horizontalement */
+    text-align: center; 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    filter: grayscale(70%);
-    // color: black;
     padding: 20px;
 }
 
 .footer__bloc {
     display: flex;
-    flex-direction: column; /* Afficher les éléments en colonne */
-    align-items: center; /* Centrer les éléments horizontalement */
+    flex-direction: column; 
+    align-items: center; 
     color: black;
     font-size: 14px;
     font-weight: 500;
@@ -38,32 +36,33 @@
 .footer__blocbis {
     display: flex;
     gap: 60px;
-    justify-content: center; /* Espace équitable entre les éléments */
+    justify-content: center;
     align-items: center;
-    width: 100%; /* Utiliser toute la largeur disponible */
-    max-width: 600px; /* Limiter la largeur pour une meilleure lisibilité */
-    margin-top: 20px; /* Ajouter de l'espace en haut */
+    width: 100%; 
+    max-width: 600px; 
+    margin-top: 20px;
     margin-left: 50px;
 }
 
 .footer__text,
 .footer__contact {
-    flex: 1; /* Prendre autant d'espace l'un que l'autre */
-    text-align: left; /* Aligner le texte à gauche */
+    flex: 1; 
+    text-align: left; 
+    font-weight: 700;
+    
 }
 
 .footer__contact {
-    // margin-right: 50px;
     margin-top: 30px;
     margin-left: 100px;
 }
 .footer__titre {
-    margin-bottom: 10px; /* Ajouter de l'espace entre le titre et le texte */
-    font-size: 16px;
+    margin-bottom: 10px; 
+    font-size: 19px;
+    font-weight: 700;
 }
 
 .footer__copyright {
-    margin-top: 30px; /* Ajouter de l'espace en haut */
-    font-size: 11px;
-    // margin-right: 55px;
+    margin-top: 30px;
+    font-size: 9px;
 }

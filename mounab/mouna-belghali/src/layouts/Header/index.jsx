@@ -22,6 +22,8 @@ function Header() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+  
+  
 
   return (
     <header className={`navigation ${isScrolled ? "sticky" : ""}`}>
@@ -37,15 +39,15 @@ function Header() {
           <div className="navigation__blocb">
             <Link to="/" className={currentPage === "/" ? "active" : ""}>  Accueil  </Link>
 
-            <Link to="/photos"className={currentPage === "/photos" ? "active" : ""}> Photos  </Link>
+            <Link to="/photos"  className={currentPage === "/photos" ? "active" : ""}> Photos  </Link>
 
-            <Link to="/videos"className={currentPage === "/videos" ? "active" : ""}>  Videos  </Link>
+            <Link to="/videos"  className={currentPage === "/videos" ? "active" : ""}>  Videos  </Link>
 
-            <Link to="/parcours"className={currentPage === "/parcours" ? "active" : ""}> Parcours </Link>
+            <Link to="/parcours"  className={currentPage === "/parcours" ? "active" : ""}> Parcours </Link>
 
-            <Link to="/actualites"className={currentPage === "/actualites" ? "active" : ""}>  Actus  </Link>
+            <Link to="/actualites"  className={currentPage === "/actualites" ? "active" : ""}>  Actus  </Link>
 
-            <Link to="/contact"className={currentPage === "/contact" ? "active" : ""}>  Contact  </Link>
+            <Link to="/contact"  className={currentPage === "/contact" ? "active" : ""}>  Contact  </Link>
           </div>
 
           <div className="navigation__blocc">

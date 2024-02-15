@@ -1,15 +1,20 @@
-import React from "react";
+import React, { useEffect }  from 'react';
+import initSmoothScroll from '../../components/Haut/index';
 import Bandeau from "../../assets/bandeau.png";
 
 
 function Footer() {
+
+    useEffect(() => {
+        initSmoothScroll();
+    }, []);
     const footerStyle = {
         background:  `url(${Bandeau})`,  
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center',
-        color: 'white', 
-        padding: '20px',  
+        padding: '20px', 
+        
       };
     return (
         <footer className="footer" style={footerStyle}>

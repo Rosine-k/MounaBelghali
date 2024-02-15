@@ -7,8 +7,8 @@
     margin-bottom: 80px;
     &__bloc {
         display: grid;
-        grid-template-columns: repeat(3, 1fr); /* Trois colonnes égales */
-        gap: 20px; /* Espace entre les images */
+        grid-template-columns: repeat(3, 1fr); 
+        gap: 20px; 
     }
     &__book {
         width: 345px;
@@ -22,12 +22,4 @@
         font-weight: 300;
         margin-bottom: 50px;
     }
-}
-
-.thumbnail {margin-bottom:6px;}
-
-.carousel-control.left,.carousel-control.right{
-  background-image:none;
-  margin-top:10%;
-  width:5%;
 }

@@ -1,0 +1,45 @@
+.actus {
+    text-align: center; /* Pour centrer le contenu */
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.actus__h1 {
+    font-size: 38px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+.actus__bloc {
+    display: grid;
+    grid-template-columns: repeat(2, auto); 
+    gap: 10px; 
+    // margin-left: auto;
+    // margin-right: auto;
+    justify-content: center;
+}
+
+.actus__vignette {
+    width: 500px; /* Pour que deux vignettes tiennent sur une ligne */
+    margin: 10px; /* Marge entre les vignettes */
+    background-color: #EDEEF2; /* Couleur de fond */
+    border-radius: 10px;
+    border: 1px solid #ccc; /* Bordure grise */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre portée */
+}
+
+.actus__h2 {
+    margin-bottom: 10px; /* Espace sous le titre */
+    font-size: 20px;
+}
+
+.actus__img {
+    width: 480px; /* Pour que l'image occupe toute la largeur de la vignette */
+    height: 247px;
+    padding: 20px;
+    object-fit: cover;
+}
+
+.actus__p {
+    padding: 10px; /* Espacement du texte par rapport aux bords de la vignette */
+}

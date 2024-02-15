@@ -1,0 +1,159 @@
+.contact {
+    text-align: center; /* Pour centrer le contenu */
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.contact__h1 {
+    font-size: 38px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+.contact__h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.contact__h3 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.contact__h4 {
+    color: white;
+    font-size: 23px;
+    font-weight: 100;
+    padding-bottom: 25px;
+    text-align: left;
+}
+
+.contact__bloc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact__blocUn {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contact__blocUnA {
+    // border-radius: 50%; /* Pour arrondir l'image */
+    overflow: hidden; /* Pour cacher les coins de l'image qui dépassent du cercle */
+    margin-right: 20px;
+}
+
+.contact__img {
+    width: 459px;
+    height: 436px;
+    object-fit: cover;
+    border: 2px solid gray  ;
+    border-radius: 50%;
+}
+
+.contact__blocUnB {
+    text-align: left; /* Alignement du texte à gauche */
+    margin-left: 50px;
+}
+
+.contact__blocDeux {
+    background-color: black; /* Couleur de fond noire */
+    padding: 20px; /* Espacement interne */
+    // border-radius: 10px;
+    width: 100%;
+    max-width: 100%; /* Largeur maximale du formulaire */
+    text-align: left; /* Alignement du texte à gauche */
+    margin-top: 70px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centrer verticalement */
+    align-items: center; 
+    padding-bottom: 40px;
+}
+
+#nom_prenom {
+    width: 296px;
+    border: 2px solid gray;
+}
+
+#email {
+    width: 296px;
+    border: 2px solid gray;
+}
+
+#message {
+    width: 622px;
+    border: 2px solid gray;
+}
+
+
+.contact__blocDeux form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__formA {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.contact__formA label {
+    height: 38px; /* Hauteur fixe pour aligner avec les inputs */
+}
+
+
+.contact__blocDeux label {
+    color: white; 
+    margin-bottom: 10px;
+    display: block;
+}
+
+.contact__blocDeux input,
+.contact__blocDeux textarea {
+    // width: calc(100% - 20px); 
+    margin-bottom: 20px; 
+    padding: 10px; 
+    // border-radius: 5px;
+    border: none;
+}
+
+.contact__imgTel {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.contact__imgEmail {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.contact__blocTel , .contact__blocEmail {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.contact__btn {
+    width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Couleur de fond bleue */
+    color: white; /* Couleur du texte */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: 500;
+    
+}
+
+.contact__btn:hover {
+    background-color: gray; /* Couleur de fond bleue foncée au survol */
+}

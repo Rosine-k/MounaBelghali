@@ -1,0 +1,72 @@
+.videos {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    &__h1 {
+        font-size: 38px;
+        font-weight: 300;
+        margin-bottom: 50px;
+    }
+    &__h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    &__bloc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    &__bandedemo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 40px;
+        background-color: #EDEEF2;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+        
+    &__extraits {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        justify-content: center;
+        background-color: #EDEEF2;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    &__un {
+        width: 671px;
+        height: 374px;
+    }
+}
+
+.video-thumbnail {
+    position: relative;
+    border-radius: 10px; /* bordure arrondie */
+    overflow: hidden; /* masquer le contenu qui dépasse */
+    margin-bottom: 20px; /* espace entre les vignettes */
+ /* Ombre portée */
+}
+
+.video-thumbnail::before {
+    content: ''; /* ajout d'un pseudo-élément pour créer un effet de superposition */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+
+

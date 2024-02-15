@@ -1,4 +1,4 @@
-import React  from 'react';
+import React from 'react';
 import Header from "../../layouts/Header/index";
 import Footer from '../../layouts/Footer';
 import Banner from '../../assets/photoAccueil.jpg';
@@ -9,6 +9,7 @@ import Video1 from '../../assets/videoBandeDemo.png';
 import { Link } from "react-router-dom";
 
 function Accueil () {
+
     return (
         <div>
             <Header />
