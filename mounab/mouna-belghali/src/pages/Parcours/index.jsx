@@ -1,5 +1,4 @@
-import React, { useEffect }  from 'react';
-import initSmoothScroll from '../../components/Haut/index';
+import React from 'react';
 import Header from "../../layouts/Header/index";
 import Footer from '../../layouts/Footer';
 import CV from '../../assets/nbtest.jpg';
@@ -7,9 +6,7 @@ import CV from '../../assets/nbtest.jpg';
 
 function Parcours() {
    
-    useEffect(() => {
-        initSmoothScroll();
-    }, []);
+ 
 
     return (
         <div>

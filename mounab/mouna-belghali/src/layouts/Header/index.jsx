@@ -3,7 +3,6 @@ import { Link, useLocation } from "react-router-dom";
 import logoFacebook from "../../assets/facebookB.png";
 import logoInstagram from "../../assets/instagram.png";
 
-
 function Header() {
 
   const location = useLocation();
@@ -21,10 +20,8 @@ function Header() {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []);
+  }, []);  
   
-  
-
   return (
     <header className={`navigation ${isScrolled ? "sticky" : ""}`}>
 
@@ -51,9 +48,9 @@ function Header() {
           </div>
 
           <div className="navigation__blocc">
-            <Link to="/"> <img className="navigation__logo" src={logoFacebook} alt="logo facebook" /></Link>
+            <Link to="https://www.facebook.com/mouna.belghali" target="_blank" rel="noopener noreferrer"> <img className="navigation__logo" src={logoFacebook} alt="logo facebook" /></Link>
 
-            <Link to="/"> <img className="navigation__logo" src={logoInstagram} alt="logo instagram" /></Link>
+            <Link to="https://www.instagram.com/mounabelghali/" target="_blank" rel="noopener noreferrer"> <img className="navigation__logo" src={logoInstagram} alt="logo instagram" /></Link>
           </div>
 
         </nav>

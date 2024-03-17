@@ -1,0 +1,17 @@
+.erreur {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin-top: 50px;
+    &__bloc {
+        text-align: center;
+    }
+    &__h1 {
+       font-size: 38px; 
+    }
+    &__h2 {
+        color: #007bff;
+        margin-top: 20px;
+    }
+}

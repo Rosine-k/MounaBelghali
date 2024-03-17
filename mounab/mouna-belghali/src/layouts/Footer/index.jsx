@@ -1,13 +1,11 @@
-import React, { useEffect }  from 'react';
-import initSmoothScroll from '../../components/Haut/index';
+import React from 'react';
+
 import Bandeau from "../../assets/bandeau.png";
 
 
 function Footer() {
 
-    useEffect(() => {
-        initSmoothScroll();
-    }, []);
+ 
     const footerStyle = {
         background:  `url(${Bandeau})`,  
         backgroundSize: 'cover',
